@@ -1,13 +1,10 @@
 {
-  "name": "gerador-carreta-saude",
+  "name": "card-agora-tem",
   "version": "1.0.0",
+  "private": true,
   "description": "Gerador de cards da Carreta da Saúde",
-  "main": "server.js",
   "scripts": {
     "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.18.3"
   },
   "engines": {
     "node": ">=18"

@@ -1,33 +1,30 @@
-# Gerador de Cards — Carreta da Saúde
+# Card Agora Tem — Railway
 
-Versão pronta para subir no Railway.
+Versão flat para evitar erro 404 no Railway.
 
-## Como subir no Railway
+## Importante
 
-1. Extraia este ZIP.
-2. Suba a pasta para um repositório no GitHub.
-3. No Railway, clique em **New Project**.
-4. Escolha **Deploy from GitHub repo**.
-5. Selecione o repositório.
-6. O Railway detectará Node.js automaticamente.
-7. Aguarde o deploy e abra a URL gerada.
+No GitHub, os arquivos precisam ficar na raiz do repositório, assim:
 
-## Rodar localmente
+- `package.json`
+- `server.js`
+- `index.html`
+- `railway.json`
+- `Procfile`
+
+Não coloque esses arquivos dentro de uma subpasta, a menos que você configure o **Root Directory** no Railway.
+
+## Railway
+
+Start command:
 
 ```bash
-npm install
 npm start
 ```
 
-Depois abra:
+Servidor:
 
-```text
-http://localhost:3000
+```bash
+node server.js
 ```
 
-## Arquivos principais
-
-- `public/index.html`: sistema do gerador.
-- `server.js`: servidor Express.
-- `package.json`: dependências e comando de start.
-- `railway.json`: configuração do Railway.
