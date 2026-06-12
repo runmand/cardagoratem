@@ -1,0 +1,15 @@
+{
+  "name": "gerador-carreta-saude",
+  "version": "1.0.0",
+  "description": "Gerador de cards da Carreta da Saúde",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
